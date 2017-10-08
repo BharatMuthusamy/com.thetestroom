@@ -13,15 +13,15 @@ public class TestParent {
 
     @BeforeTest
     public static void setUp(){
-        driver = DriverHelper.getDriverToUse();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//         driver = DriverHelper.getDriverToUse();
+//         driver.manage().window().maximize();
+//         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @AfterTest
     public static void tearDown(){
-        if(driver != null){
-            driver.quit();
-        }
+//         if(driver != null){
+//             driver.quit();
+//         }
     }
 }
