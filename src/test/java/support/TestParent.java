@@ -16,6 +16,7 @@ public class TestParent {
 //         driver = DriverHelper.getDriverToUse();
 //         driver.manage().window().maximize();
 //         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        System.out.println("In TestParent before class.....");
     }
 
     @AfterTest
@@ -23,5 +24,6 @@ public class TestParent {
 //         if(driver != null){
 //             driver.quit();
 //         }
+        System.out.println("In TestParent after class.....");
     }
 }
